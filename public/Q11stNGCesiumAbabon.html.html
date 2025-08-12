@@ -8,8 +8,14 @@
         totalRequired = (numPerDay * 365) * (maxAge - age);
 
         let check = prompt("Are the values correct? Answer Y or N. Age: " + age + " ,maxmimum age: " + maxAge + " ,number per day: " + numPerDay)
-            if(check = Y){
-                
+            if(check = "Y"){
+                document.write("You will need " + totalRequired + " to last you until the ripe old age of " + maxAge + ".")
+            }
+            else{
+                alert ("run code again")
+            }
+
+
     </script>
 
 </body>
