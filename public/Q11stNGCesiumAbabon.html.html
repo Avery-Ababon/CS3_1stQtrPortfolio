@@ -2,12 +2,14 @@
 <body>
     <script>
         // let, var, const.
-        let age = 14;
-        let maxAge = 100;
-        let numPerDay = 3;
+        let age = prompt("Enter age: ");
+        let maxAge = prompt("Maximum age: ");
+        let numPerDay = prompt("Enter number per day: ");
         totalRequired = (numPerDay * 365) * (maxAge - age);
 
-        document.write("You will need " + totalRequired + " to last you until the ripe old age of " + maxAge + ".")
+        let check = prompt("Are the values correct? Answer Y or N. Age: " + age + " ,maxmimum age: " + maxAge + " ,number per day: " + numPerDay)
+            if(check = Y){
+                
     </script>
 
 </body>
