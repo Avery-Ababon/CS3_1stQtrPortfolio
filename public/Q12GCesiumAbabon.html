@@ -25,9 +25,16 @@
     <script>
         function totalMeal() {
               // place your JS code here
-              let totalCost = mp + tip + (%sc / 100 * mp)
-              let dtm = value
-              tm.innerHTML = <p><b>${dtm} </b></p>;
+              var mp = Number(document.getElementById("mp").value);
+              var tip = Number(document.getElementById("tip").value);
+              var sc = Number(document.getElementById("sc").value);
+
+              var totalCost = mp + tip + (sc / 100 * mp)
+              tm.innerHTML = `<p><b> ${totalCost.toFixed(2)}</b></p>`;
+
+
+
+
         }
     </script>
 
