@@ -1,6 +1,7 @@
 
 
 <!DOCTYPE html>
+
 <html>
 <body>
 
@@ -20,7 +21,7 @@
     </label> <br>
 
     <button onclick = "totalMeal()"> show total meal price. </button></p>
-    <p>Total Meal: <span id = "tm"></span></p> <br>
+    <p>total Meal: <span id = "tm"></span></p> <br>
 
     <script>
         function totalMeal() {
@@ -31,12 +32,12 @@
 
               var totalCost = mp + tip + (sc / 100 * mp)
               tm.innerHTML = `<p><b> ${totalCost.toFixed(2)}</b></p>`;
-
-
-
-
         }
     </script>
+
+// W3Schools.com. (n.d.). https://www.w3schools.com/jsref/jsref_number.asp
+// W3Schools.com. (n.d.-b). https://www.w3schools.com/jsref/jsref_tofixed.asp
+
 
 </body>
 </html>
